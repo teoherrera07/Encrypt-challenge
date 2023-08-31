@@ -15,70 +15,68 @@ main {
     margin-bottom: 50px;
     margin-left: 80px;
 }
+.text-area{
+    color: #0A3871;
+    border: none;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{ color: #0A3871;}
+  .text-area:focus{
+    outline: none;
+  }
+.mensaje{
+  background: white;
+  background-image: url('/Imagenes/Muñeco.png');
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0A3871;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+.mensaje:focus{
+  outline: none;
+}
 .botones{
     display: flex;
-    width: 680px;
-    align-items: flex-start;
-    gap: 24px;
+   margin-top: 18px;
 }
 .btn-encriptar{
     color: var(--white, #FFF);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    cursor: pointer;
     width: 328px;
-    padding: 24px;
     border-radius: 24px;
+    border: 1px solid #0A3871;
     background: var(--dark-blue-dark-blue-300, #0A3871);
 }
 .btn-desencriptar{
     width: 328px;
-    padding: 24px;
     border-radius: 24px;
     border: 1px solid var(--dark-blue-dark-blue-300, #0A3871);
     background: #D8DFE8;
     color: var(--dark-blue-dark-blue-300, #0A3871);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    height: 67px;
+    margin-left: 30px;
+    color: #0A3871;
+    cursor: pointer;
 }
 .btn-copiar{
     color: var(--dark-blue-dark-blue-300, #0A3871);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     width: 336px;
-    padding: 24px;
+    height: 67px;
+    position: absolute;
+    margin-left: 108px;
+    margin-top: 402px;
+    cursor: pointer;
     border-radius: 24px;
     border: 1px solid var(--dark-blue-dark-blue-300, #0A3871);
 }
-.text-area{
-    width: 577px;
-    color: var(--dark-blue-dark-blue-300, #0A3871);
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 48px */
-}
-.mensaje{
-    width: 400px;
-    height: 944px;
-    flex-shrink: 0;
-}
 .answer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .info{
     display: flex;
